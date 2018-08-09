@@ -4,7 +4,30 @@
   font-style: italic;
   background: linear-gradient(to right, silver, teal);
 }
+
+body {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top left, darkgoldenrod, salmon);
+}
+
 h1 {
-  font-size:100px;
+  font-family: Lobster, monospace;
+  text-align: center;
+  font-size:80px;
+  color: black;
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  color: darkblue;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /* padding: 30px; */
 }
 </style>
